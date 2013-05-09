@@ -1,0 +1,19 @@
+{
+  "vagrant": {
+    "vm": {
+      "box": "opscode_centos-6.3_chef-11.2.0",
+      "box_url": "http://dds.gina.alaska.edu/public/TEMP/vagrant/opscode_centos-6.3_chef-11.2.0.box",
+      "forward_port": {
+ 
+      },
+      "network": {
+        "bridged": false,
+        "hostonly": "172.31.31.10"
+      },
+      "provision": "chef_solo"
+    }
+  },
+  "ssl": {
+    "verify": false
+  }
+}
