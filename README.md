@@ -44,7 +44,7 @@ vagrant plugin install vagrant-berkshelf
 
 ### Install the berkshelf config
 ```bash
-cp berkshelf_config.json ~/.berkshelf/config.json
+cp config.json ~/.berkshelf/config.json
 ```
 
 ### Create a test cookbook and run it
