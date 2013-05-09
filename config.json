@@ -2,7 +2,7 @@
   "vagrant": {
     "vm": {
       "box": "opscode_centos-6.3_chef-11.2.0",
-      "box_url": "http://dds.gina.alaska.edu/public/TEMP/vagrant/opscode_centos-6.3_chef-11.2.0.box",
+      "box_url": "http://dds.gina.alaska.edu/public/temp/vagrant/opscode_centos-6.3_chef-11.2.0.box",
       "forward_port": {
  
       },
