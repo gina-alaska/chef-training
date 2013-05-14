@@ -3,6 +3,8 @@ IARC Chef Training
 
 ### Install Ruby 1.9.3 and RubyGems
 
+##### Install VirtualBox if you don't already have it
+
 #### Linux
 ```bash
 > git clone http://github.com/sstephenson/rbenv ~/.rbenv
