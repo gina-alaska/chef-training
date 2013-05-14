@@ -3,7 +3,10 @@ IARC Chef Training
 
 ### Install Ruby 1.9.3 and RubyGems
 
-##### Install VirtualBox if you don't already have it
+#### Install VirtualBox
+```bash
+https://www.virtualbox.org/wiki/Downloads
+```
 
 #### Linux
 ```bash
