@@ -5,29 +5,29 @@ GINA/IARC Chef Training
 
 #### Linux
 ```bash
-> git clone http://github.com/sstephenson/rbenv ~/.rbenv
-> echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-> echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-> exec $SHELL -l
-> git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-> rbenv install 1.9.3-p392
-> rbenv global 1.9.3-p392
-> gem install bundler
-> rbenv rehash
+git clone http://github.com/sstephenson/rbenv ~/.rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+exec $SHELL -l
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv install 1.9.3-p392
+rbenv global 1.9.3-p392
+gem install bundler
+rbenv rehash
 ```
 #### Mac
 Prereq: Install xcode and then install the Command Line Tools from the download tab of the xcode preferences
 ```bash
-> ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
-> brew install ruby-build
-> brew install rbenv
-> rbenv install 1.9.3-p392
-> echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-> echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-> exec $SHELL -l
-> rbenv global 1.9.3-p392
-> gem install bundler
-> rbenv rehash
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+brew install ruby-build
+brew install rbenv
+rbenv install 1.9.3-p392
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+exec $SHELL -l
+rbenv global 1.9.3-p392
+gem install bundler
+rbenv rehash
 ``` 
 
 ### Clone this cookbook
