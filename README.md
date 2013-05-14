@@ -1,4 +1,4 @@
-IARC Chef Training
+GINA/IARC Chef Training
 ==================
 
 ### Install Ruby 1.9.3 and RubyGems
