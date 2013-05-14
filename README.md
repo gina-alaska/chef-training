@@ -73,3 +73,7 @@ Finished tests in 0.013892s, 215.9469 tests/s, 143.9646 assertions/s.
 
 [2013-05-09T19:19:53+00:00] INFO: Report handlers complete
 ```
+
+
+## Keep learning
+GINA Chef Wiki(https://github.com/gina-alaska/chef-training/wiki)
