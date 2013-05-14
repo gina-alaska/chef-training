@@ -3,11 +3,6 @@ IARC Chef Training
 
 ### Install Ruby 1.9.3 and RubyGems
 
-#### Install VirtualBox
-```bash
-https://www.virtualbox.org/wiki/Downloads
-```
-
 #### Linux
 ```bash
 > git clone http://github.com/sstephenson/rbenv ~/.rbenv
@@ -41,6 +36,11 @@ git clone http://github.com/gina-alaska/chef-training.git
 cd chef-training
 bundle install
 rbenv rehash
+```
+
+### Install VirtualBox
+```bash
+https://www.virtualbox.org/wiki/Downloads
 ```
 
 ### Install Vagrant
