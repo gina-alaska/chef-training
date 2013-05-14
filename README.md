@@ -76,4 +76,4 @@ Finished tests in 0.013892s, 215.9469 tests/s, 143.9646 assertions/s.
 
 
 ## Keep learning
-GINA Chef Wiki(https://github.com/gina-alaska/chef-training/wiki)
+[GINA Chef Wiki](https://github.com/gina-alaska/chef-training/wiki)
