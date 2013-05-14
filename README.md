@@ -15,6 +15,7 @@ IARC Chef Training
 > rbenv rehash
 ```
 #### Mac
+Prereq: Install xcode and then install the Command Line Tools from the download tab of the xcode preferences
 ```bash
 > ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 > brew install ruby-build
