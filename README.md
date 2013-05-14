@@ -21,6 +21,9 @@ Prereq: Install xcode and then install the Command Line Tools from the download 
 > brew install ruby-build
 > brew install rbenv
 > rbenv install 1.9.3-p392
+> echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+> echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+> exec $SHELL -l
 > gem install bundler
 > rbenv rehash
 ``` 
