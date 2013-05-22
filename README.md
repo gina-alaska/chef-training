@@ -4,6 +4,16 @@ GINA/IARC Chef Training
 ### Install Ruby 1.9.3 and RubyGems
 
 #### Linux
+
+ubuntu users:
+```bash
+sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core
+```
+fedora users:
+```
+# todo add the yum install deps for ruby here
+```
+
 ```bash
 git clone http://github.com/sstephenson/rbenv ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
