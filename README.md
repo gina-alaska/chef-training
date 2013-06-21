@@ -11,7 +11,8 @@ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1
 ```
 fedora users:
 ```
-# todo add the yum install deps for ruby here
+yum groupinstall "Development Tools"
+yum install -y readline-devel zlib-devel ncurses-devel
 ```
 
 ```bash
